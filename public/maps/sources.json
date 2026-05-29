@@ -1,0 +1,111 @@
+{
+  "ancient": {
+    "title": "File:CS2 de ancient.png",
+    "url": "https://liquipedia.net/commons/images/f/fc/CS2_de_ancient.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_ancient.png",
+    "path": "/maps/ancient.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 837699,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "anubis": {
+    "title": "File:CS2 de anubis.png",
+    "url": "https://liquipedia.net/commons/images/2/28/CS2_de_anubis.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_anubis.png",
+    "path": "/maps/anubis.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 736132,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "dust2": {
+    "title": "File:CS2 Dust 2 A Site.jpg",
+    "url": "https://liquipedia.net/commons/images/d/d7/CS2_Dust_2_A_Site.jpg",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_Dust_2_A_Site.jpg",
+    "path": "/maps/dust2.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/jpeg",
+    "bytes": 614939
+  },
+  "inferno": {
+    "title": "File:CS2 de inferno.png",
+    "url": "https://liquipedia.net/commons/images/0/08/CS2_de_inferno.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_inferno.png",
+    "path": "/maps/inferno.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 792138,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "mirage": {
+    "title": "File:CS2 de mirage.png",
+    "url": "https://liquipedia.net/commons/images/f/f1/CS2_de_mirage.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_mirage.png",
+    "path": "/maps/mirage.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 943438,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "nuke": {
+    "title": "File:CS2 de nuke.png",
+    "url": "https://liquipedia.net/commons/images/a/ad/CS2_de_nuke.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_nuke.png",
+    "path": "/maps/nuke.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 662800,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "overpass": {
+    "title": "File:CS2 de overpass.png",
+    "url": "https://liquipedia.net/commons/images/3/3c/CS2_de_overpass.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_overpass.png",
+    "path": "/maps/overpass.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 918941,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "cache": {
+    "title": "File:CS2 de cache.png",
+    "url": "https://liquipedia.net/commons/images/b/b6/CS2_de_cache.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_cache.png",
+    "path": "/maps/cache.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 572975,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "vertigo": {
+    "title": "File:CS2 de vertigo.png",
+    "url": "https://liquipedia.net/commons/images/4/48/CS2_de_vertigo.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_vertigo.png",
+    "path": "/maps/vertigo.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 527028,
+    "converted_to_jpeg_for_browser_css": true
+  },
+  "train": {
+    "title": "File:CS2 de train.png",
+    "url": "https://liquipedia.net/commons/images/4/44/CS2_de_train.png",
+    "descriptionurl": "https://liquipedia.net/commons/File:CS2_de_train.png",
+    "path": "/maps/train.jpg",
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png",
+    "bytes": 452063,
+    "converted_to_jpeg_for_browser_css": true
+  }
+}

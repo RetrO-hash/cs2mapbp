@@ -1,0 +1,16 @@
+{
+  "ct": {
+    "page": "https://cs2skins.gg/items/agent/special-agent-ava-fbi",
+    "url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nm_ytk-fO8YaVjNPLdXz6TkLdw5LY4Hnmwl0wktj7dn4r9I3OWPFApC5F1QeAO5xi4lIDiM_SiuVKk3V4ZcQ",
+    "path": "/agents/ct.png",
+    "content_type": "image/png",
+    "bytes": 163692
+  },
+  "t": {
+    "page": "https://cs2skins.gg/items/agent/street-soldier-phoenix",
+    "url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYbo8idV5uqRfqV_KfGdGm7ex78n4LU_GSrmzBxx4Dncntn_InmWPwcmCccjTO8L50awwdC2N-uwsxue1dwGHFtFrw",
+    "path": "/agents/t.png",
+    "content_type": "image/png",
+    "bytes": 163099
+  }
+}

@@ -1,0 +1,129 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS2 在线地图 BP</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <div id="vetoFx" class="veto-fx hidden" aria-hidden="true"></div>
+  <main class="app">
+    <section id="landing" class="panel landing">
+      <div>
+        <p class="eyebrow">CS2 MAP VETO · BO1 / BO3 / BO5</p>
+        <h1>在线地图 Ban/Pick 房间</h1>
+        <p class="sub">创建房间时从完整图池选择 7 张地图，可选择 BO1 / BO3 / BO5 赛制。</p>
+      </div>
+      <form id="createForm" class="create-form">
+        <label>
+          <span>Team A 名称</span>
+          <input name="teamA" maxlength="32" placeholder="Team A" value="Team A" />
+        </label>
+        <label>
+          <span>Team B 名称</span>
+          <input name="teamB" maxlength="32" placeholder="Team B" value="Team B" />
+        </label>
+        <label>
+          <span>比赛模式</span>
+          <select name="mode" id="modeSelect">
+            <option value="BO1">BO1</option>
+            <option value="BO3" selected>BO3</option>
+            <option value="BO5">BO5</option>
+          </select>
+        </label>
+        <div class="map-select-block">
+          <div class="map-select-head">
+            <span>选择 7 张地图</span>
+            <button id="activePoolBtn" class="ghost small" type="button">当前服役图池</button>
+          </div>
+          <div id="createMapPool" class="create-map-pool"></div>
+          <p id="mapSelectHint" class="hint">已选择 7 / 7</p>
+        </div>
+        <button class="primary" type="submit">创建 BP 房间</button>
+      </form>
+      <p class="hint">创建后复制 Team A / Team B 链接给双方，观战链接只读。</p>
+    </section>
+
+    <section id="room" class="room hidden">
+      <header class="topbar panel">
+        <div>
+          <p class="eyebrow">ROOM <span id="roomId"></span></p>
+          <h1><span id="teamAName">Team A</span> vs <span id="teamBName">Team B</span></h1>
+        </div>
+        <div class="status-box">
+          <span id="conn" class="pill warn">连接中</span>
+          <span id="role" class="pill">spectator</span>
+        </div>
+      </header>
+
+      <section id="sharePanel" class="panel hidden">
+        <div class="share-head">
+          <div>
+            <p class="eyebrow">ADMIN</p>
+            <h2>分享链接</h2>
+          </div>
+          <button id="resetBtn" class="ghost" type="button">重置 BP</button>
+        </div>
+        <div id="links" class="links"></div>
+      </section>
+
+      <section class="grid-layout">
+        <div class="main-col">
+          <section class="panel turn-panel">
+            <p class="eyebrow">当前步骤</p>
+            <h2 id="turnTitle">等待状态同步</h2>
+            <p id="turnDesc" class="sub"></p>
+            <div id="readyPanel" class="ready-panel">
+              <span id="readyA" class="ready-pill">Team A 未进入</span>
+              <span id="readyB" class="ready-pill">Team B 未进入</span>
+            </div>
+            <div id="readyActions" class="ready-actions hidden">
+              <button id="readyBtn" class="primary" type="button">我已准备，开始 BP</button>
+            </div>
+            <div id="timerPanel" class="timer-panel hidden">
+              <div class="timer-ring"><span id="timerText">30</span></div>
+              <div>
+                <strong id="timerLabel">本轮计时</strong>
+                <p class="sub">30 秒内未操作将由系统随机选择。</p>
+              </div>
+            </div>
+            <div id="sidePicker" class="side-picker hidden">
+              <button data-side="CT" type="button"><img src="/agents/ct.png" alt="" />选择 CT</button>
+              <button data-side="T" type="button"><img src="/agents/t.png" alt="" />选择 T</button>
+            </div>
+          </section>
+
+          <section class="maps" id="maps"></section>
+        </div>
+
+        <aside class="side-col">
+          <section class="panel series">
+            <p class="eyebrow"><span id="seriesMode">BO3</span> 结果</p>
+            <div id="series"></div>
+          </section>
+          <section class="panel timeline-panel">
+            <p class="eyebrow">操作记录</p>
+            <ol id="timeline" class="timeline"></ol>
+          </section>
+        </aside>
+      </section>
+    </section>
+
+    <div id="toast" class="toast hidden"></div>
+  </main>
+  <section id="floatingResult" class="floating-result hidden">
+    <div class="float-head">
+      <div>
+        <p class="eyebrow">BP RESULT</p>
+        <strong>最终选图</strong>
+      </div>
+      <button id="hideFloatBtn" class="float-toggle" type="button">隐藏</button>
+    </div>
+    <div id="floatingSeries" class="floating-series"></div>
+  </section>
+  <button id="showFloatBtn" class="show-float hidden" type="button">显示选图结果</button>
+  <script src="/client.js"></script>
+</body>
+</html>
